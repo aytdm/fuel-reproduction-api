@@ -1,12 +1,12 @@
 {
   "results": [
     {
-      "id": "1",
+      "id": 1,
       "language": "en",
       "greeting": "Hello!"
     },
     {
-      "id": "2",
+      "id": 2,
       "language": "ja",
       "artist": "こんにちは！"
     }
