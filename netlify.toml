@@ -1,8 +1,10 @@
 [build]
-  publish = "public"
+  command = "make netlify"
+  functions = "functions"
+  publish = "site"
 
-[[redirects]]
-  from = "/"
-  to = "/result.json"
-  status = 302
+[build.environment]
+  GOBIN = "/opt/build/repo/functions"
 
+[template.environment]
+  GO_IMPORT_PATH = "github.com/aytdm/fuel-reproduction-api"
