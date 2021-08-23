@@ -1,0 +1,11 @@
+{
+  "results": [
+    {
+      "id": "1",
+      "language": "en",
+      "greeting": "Hello!"
+    }
+  ],
+  "meta": {}
+}
+
